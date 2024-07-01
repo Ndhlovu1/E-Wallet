@@ -1,4 +1,6 @@
-# Ethereum Wallet
+# ETHEREUM WALLET
+
+USED FOR SPEADING FUNDS
 
 ## FEATURES
 
