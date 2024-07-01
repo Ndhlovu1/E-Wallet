@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EWallet.sol": "consumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EWallet.sol": {
+			"keccak256": "0x77e642c2a110439b3b95670863280b44b69bd5bc9ddcc83b1d1ed8777b8db3a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://749506781fb8eb9f566e1fe7dba572a915dbb5b5d80d35ff59b29a641122f26e",
+				"dweb:/ipfs/Qmazn3oXc2uVKLs39Jy9UKdvHw9EMSJsktopmU22TmQu7j"
+			]
+		}
+	},
+	"version": 1
+}

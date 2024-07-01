@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractOne",
+						"type": "address"
+					}
+				],
+				"name": "depositOnContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleContractCall.sol": "ContractTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleContractCall.sol": {
+			"keccak256": "0x74c0f31fe660241477a9395ae9d36beb0a7f9396f5e999c1912aca39e6e02a2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dea76a00d197ea55d80e99f8322cf3061be5ea52b511f2793913d817299c3df4",
+				"dweb:/ipfs/QmQVWGfiMkhZkmfJDF4yHDCxgwbXPDyy7hw3SKioz9kN3y"
+			]
+		}
+	},
+	"version": 1
+}
